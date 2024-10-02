@@ -1,0 +1,19 @@
+Welcome to the Spotify Auto Record software!
+
+This program was written by Liam Laidlaw as a way for radio stations using spotify as their music provider to Automatically record the current playing song name, artists, and time which the song was played at. 
+
+**Important Disclaimer** 
+This software is still in development and under testing so it may have some issues with it's functionallity.
+Please contatct Liam Laidlaw at liamlaidlaw04@gmail.com if you have any questions or concerns with the software, or if you would like to report a bug or error. 
+
+Instructions for use:
+1) Run the SpotifyAutoRecords.exe file
+2) Press Start on the popup window
+3) The user should be redirected to the Spotify login page and asked to accept permissions (follow instructions on Spotify's website)
+4) After accepting permissions, the user will be redirected to a landing page which will provide an error (this is ok!)
+5) Copy the URL in the browser and paste it into the command line which should pop up behind the main program window (you should get a prompt for this task)
+
+	- Appendix: The above verification and permissions steps should only have to be 	 	  performed on the first time running the program. 
+
+6) Start playing music on the Spotify account which was used on the login page and enjoy automated song Records!
+

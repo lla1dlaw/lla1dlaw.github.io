@@ -1,0 +1,212 @@
+@font-face {
+  font-family: 'Fredoka';
+  src: url('../assets/fonts/Fredoka.ttf');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border-width: 0; 
+  box-sizing: border-box;
+  font-family: 'Fredoka', 'sans-serif'; 
+  font-weight: 400;
+}
+
+/* -------------------------------------------------------Tags------------------------------------------------------- */
+
+body {
+  background-color: #110718;
+  align-items: left;
+}
+
+header {
+  display: flex; 
+}
+
+nav {
+  background-color: #110718;
+  margin-top: 35px;
+  max-width: fit-content;
+  margin-inline: auto;
+  margin-right: 50px;
+}
+
+img {
+  padding: 20px;
+}
+
+/* -------------------------------------------------------IDs------------------------------------------------------- */
+
+#banner-img {
+  display: flex; 
+  float: left;
+  width: 100px;
+  height: auto;
+  padding: 5px; 
+}
+
+#banner-text {
+  display: flex;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Fredoka', 'sans-serif';
+  color: #FF325D;
+  font-weight: 500;
+  padding-top: 15px;
+  font-size: 40px;
+}
+
+#about-me-photo {
+  margin-inline: auto; 
+}
+
+#intro-text {
+  display: flex;
+}
+
+#landing-container {
+  display: flex;
+}
+
+#profile-container {
+  max-width: fit-content;
+  margin-left: auto; 
+  margin-right: 15px;
+}
+
+#about-profile {
+  max-width: fit-content;
+  margin-inline: auto;
+  padding-right: 100px;
+  padding-left: 100px;
+  margin-bottom: 0;
+}
+
+#featured-project {
+  max-width: fit-content;
+  margin-left: 15px; 
+  margin-right: auto;
+}
+
+#featured-project-img {
+  width: 485px; 
+  height: auto
+}
+
+#images-container {
+  margin-inline: 10%;
+  display: flex;
+  gap: 20px; 
+}
+
+#soccer-section-title {
+  max-width: fit-content;
+  margin-inline: auto; 
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+#soccer-section-text {
+  max-width: fit-content;
+  margin-inline: auto; 
+  font-size: 1.5rem;
+}
+
+#soccer-section {
+  margin-inline: 10rem;
+  padding-bottom: 3%;
+}
+
+#kappa-section {
+  margin-inline: 10rem;
+  padding-bottom: 3%;
+}
+
+#kappa-section-title {
+  max-width: fit-content;
+  margin-inline: auto; 
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+#kappa-image-container {
+  display: flex; 
+}
+
+#kappa-image {
+  max-width: fit-content;
+  width: 40%;
+  margin-inline: auto;
+}
+
+#kappa-section-text-container {
+  max-width: fit-content;
+  margin-inline: auto; 
+}
+#kappa-list {
+  padding-top: 1em;
+  padding-left: 8em; 
+}
+
+#kappa-section-text {
+  font-size: 1.5em;
+}
+
+li.text {
+  font-size: 1.5em;
+}
+/* -------------------------------------------------------Classes------------------------------------------------------- */
+
+.text {
+  color: #FF325D; 
+}
+
+.nav-bar-element {
+  padding: 10px;
+  background-color: #110718;
+  color: #FF325D;
+  text-decoration: none;
+}
+
+.banner {
+  display: flex;
+}
+
+.bordered-containers {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px; 
+  margin-bottom: 100px; 
+  padding: 30px;
+  border: 2px solid #FF325D;
+  border-radius: 5%;
+  transition: padding .5s;
+}
+
+.soccer-photos {
+  width: 33.33%; 
+  border-radius: 15%;
+  object-fit: cover; 
+}
+
+
+img.landing-photo {
+  display: flex;
+  width: 400px;
+  height: auto;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  #profile-container:hover {
+    padding: 40px; 
+  }
+  #featured-project:hover {
+    padding: 40px;
+  }
+}
+
+
+
