@@ -75,6 +75,13 @@ img {
   margin-right: 15px;
 }
 
+#spotify-project-image-container {
+  max-width: fit-content;
+  margin-left: 15px;
+  margin-right: auto;
+  
+}
+
 #about-profile {
   max-width: fit-content;
   margin-inline: auto;
@@ -118,14 +125,14 @@ img {
   padding-bottom: 3%;
 }
 
-img#spotify-auto-records-page-image {
+#spotify-auto-records-page-image {
   max-width: 250px;
   max-height: auto;
   margin-inline: auto;
   padding: 0;
 }
 
-#spotify-project-image-container {
+#spotify-project-page-image-container {
   width: 300px; 
   height: auto;
   margin-left: 50px
@@ -171,6 +178,10 @@ img#spotify-auto-records-page-image {
   font-size: 1.5em;
 }
 
+#download-button-link {
+  text-decoration: none;
+}
+
 li.text {
   font-size: 1.5em;
 }
@@ -204,11 +215,14 @@ li.text {
 
 /* Style buttons */
 .download-button {
+  display: flex;
   background-color: DodgerBlue;
   border: none;
+  border-radius: 10px;
   color: white;
   padding: 12px 30px;
   margin-top: 20px;
+  margin-inline: auto;
   cursor: pointer; 
   font-size: 20px;
 }
@@ -216,6 +230,12 @@ li.text {
 /* Darker background on mouse-over */
 .download-button:hover {
   background-color: RoyalBlue;
+}
+
+.download-button-conatiner {
+  display: flex; 
+  width: 40px;
+  align-items: center;
 }
 
 .soccer-photos {
