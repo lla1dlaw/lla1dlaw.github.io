@@ -118,6 +118,24 @@ img {
   padding-bottom: 3%;
 }
 
+img#spotify-auto-records-page-image {
+  max-width: 250px;
+  max-height: auto;
+  margin-inline: auto;
+  padding: 0;
+}
+
+#spotify-project-image-container {
+  width: 300px; 
+  height: auto;
+  margin-left: 50px
+}
+
+#spotify-project-label {
+  max-width: fit-content;
+  margin-inline: auto;
+}
+
 #kappa-section {
   margin-inline: 10rem;
   padding-bottom: 3%;
@@ -182,6 +200,22 @@ li.text {
   border: 2px solid #FF325D;
   border-radius: 5%;
   transition: padding .5s;
+}
+
+/* Style buttons */
+.download-button {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  margin-top: 20px;
+  cursor: pointer; 
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.download-button:hover {
+  background-color: RoyalBlue;
 }
 
 .soccer-photos {
